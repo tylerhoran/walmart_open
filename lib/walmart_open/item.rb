@@ -28,6 +28,10 @@ module WalmartOpen
 
     attr_reader :raw_attributes
 
+    def self.get_all
+
+    end
+
     def initialize(attrs)
       @raw_attributes = attrs
       extract_known_attributes
